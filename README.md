@@ -17,7 +17,7 @@ Add this addin to your Cake script:
 
 ## Building
 
-[![Travis](https://img.shields.io/travis/syncromatics/Cake.Helm.svg)](https://travis-ci.org/syncromatics/Cake.Helm)
+[![Travis](https://travis-ci.org/santey/Cake.Helm.svg)](https://travis-ci.org/santey/Cake.Helm)
 [![NuGet](https://img.shields.io/nuget/v/Cake.Helm.svg)](https://www.nuget.org/packages/Cake.Helm/)
 
 This library is built using .NET Core and Cake.
