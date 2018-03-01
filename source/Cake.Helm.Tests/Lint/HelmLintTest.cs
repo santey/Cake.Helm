@@ -55,7 +55,3 @@ namespace Cake.Helm.Tests.Lint
         }
     }
 }
-
-namespace Cake.Helm.Tests.Package
-{
-}
