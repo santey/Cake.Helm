@@ -298,8 +298,8 @@ __pycache__/
 *.pyc
 
 # Cake - Uncomment if you are using it
-# tools/**
-# !tools/packages.config
+ci-script/tools/**
+!ci-script/tools/packages.config
 
 # Tabs Studio
 *.tss
@@ -321,5 +321,4 @@ ASALocalRun/
 
 # MSBuild Binary and Structured Log
 *.binlog
-ci-script/tools
 .vscode
