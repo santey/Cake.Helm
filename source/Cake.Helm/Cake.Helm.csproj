@@ -9,7 +9,8 @@
     <Copyright>Copyright 2018 Dmitriy Vereshchagin</Copyright>
     <PackageLicenseUrl>https://github.com/santey/Cake.Helm/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/santey/Cake.Helm</PackageProjectUrl>
-    <PackageTags>cake helm cake-build cake-contrib</PackageTags>    
+    <PackageTags>cake helm cake-build cake-contrib</PackageTags>
+    <PackageIconUrl>https://cdn.rawgit.com/cake-contrib/graphics/a5cf0f881c390650144b2243ae551d5b9f836196/png/cake-contrib-medium.png</PackageIconUrl>    
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DocumentationFile>bin\Debug\netstandard2.0\Cake.Helm.xml</DocumentationFile>
