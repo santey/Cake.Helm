@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>Cake.Helm</PackageId>
@@ -10,12 +10,12 @@
     <PackageLicenseUrl>https://github.com/santey/Cake.Helm/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/santey/Cake.Helm</PackageProjectUrl>
     <PackageTags>cake helm cake-build cake-contrib</PackageTags>
-    <PackageIconUrl>https://cdn.rawgit.com/cake-contrib/graphics/a5cf0f881c390650144b2243ae551d5b9f836196/png/cake-contrib-medium.png</PackageIconUrl>    
+    <PackageIconUrl>https://cdn.rawgit.com/cake-contrib/graphics/a5cf0f881c390650144b2243ae551d5b9f836196/png/cake-contrib-medium.png</PackageIconUrl>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DocumentationFile>bin\Debug\netstandard2.0\Cake.Helm.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Cake.Core" Version="0.33.0" />
+    <PackageReference Include="Cake.Core" Version="0.33.0" PrivateAssets="All"/>
   </ItemGroup>
 </Project>
