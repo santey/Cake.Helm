@@ -1,5 +1,6 @@
 using System;
 using Cake.Core;
+using Cake.Core.Configuration;
 using Cake.Core.Diagnostics;
 using Cake.Core.IO;
 using Cake.Helm.Lint;
@@ -22,6 +23,9 @@ namespace Cake.Helm.Tests.Lint
         IProcessRunner ICakeContext.ProcessRunner => ProcessRunner;
 
         public IRegistry Registry => Registry;
+
+        public ICakeDataResolver Data => throw new NotImplementedException();
+        public ICakeConfiguration Configuration => throw new NotImplementedException();
 
         public HelmLintFixture() : base("helm")
         {
